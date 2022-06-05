@@ -32,7 +32,7 @@ It will return an image in array.
 
 [^1]:  https://en.wikipedia.org/wiki/Richardson%E2%80%93Lucy_deconvolution
 
-2 https://washington-seattle.digication.com/jonliu/Home
+[^2]:  https://washington-seattle.digication.com/jonliu/Home
 
 ## Acknowledge
 
