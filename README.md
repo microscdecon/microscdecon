@@ -16,15 +16,22 @@ Example images are produced by Molecular Biophotonics Laboratory[^2]
 
 Import image using cv2 and prepare point spread function for your imaging system.
 
-Simply use the `rl_par` function to implement deconvolution. 
+Simply use the global memory version  `rl_par` OR the shared memory version `shared_rl_parfunction` to implement deconvolution. 
 
 ```python
-rl_par(image, psf, num_iter=50)
+rl_par(image, psf, num_iter=50
+```
+```python
+shared_rl_par(image, psf, num_iter=50)
 ```
 
 It will return an image in array.
 
 ![Compare](img/Comp.jpg)
+
+## Acknowledge
+
+Much appreciation to Prof. Duane Storti, John Bartlett, Chris Uchytil for their support, guidance and encouragement in this project.
 
 
 
@@ -34,8 +41,3 @@ It will return an image in array.
 
 [^2]:  https://washington-seattle.digication.com/jonliu/Home
 
-
-
-## Acknowledge
-
-Much appreciation to Prof. Duane Storti, John Bartlett, Chris Uchytil for their support, guidance and encouragement in this project.
